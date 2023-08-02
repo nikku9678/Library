@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar';
+// import Home from './components/Home/Home';
+// import Service from './components/Services/Services';
 
 function App() {
   return (
     <div>
-      <h2>App</h2>
+      <Navbar/>
+      {/* <Home/>
+      <Service/> */}
     </div>
   )
 }
