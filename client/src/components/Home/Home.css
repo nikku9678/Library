@@ -1,0 +1,71 @@
+/* Home */
+.slider{
+  width: 100%;
+}
+.lib-btn{
+  width: 100%;
+  /* border: 2px solid black; */
+  /* height: 200px; */
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.lib-btn button{
+  width: 300px;
+  height: 70px;
+  /* margin-top: 50px; */
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #29B6F6;
+  border: none;
+  
+}
+
+
+
+
+
+
+
+
+/* Subtitle */
+.subtitle {
+  margin: 24px auto 0;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+/* Title */
+.title {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  width: 90%;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+
+@media only screen and (min-width:200px) and (max-width:767px){
+  .slider{
+    width: 100%;
+    height: 30vh;
+    /* border: 2px solid red; */
+  }
+}
