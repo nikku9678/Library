@@ -15,11 +15,11 @@ function Navbar() {
         <ul className="navbar">
             <li><a href="#Home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education2">Education</a></li>
-            <li><a href="#services">Projects</a></li>
-            <li><a href="#mylinks">My Links</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-us">Contact-us</a></li>
+            <li><a href="#L-tour">L-Tour</a></li>
+            <li><a href="#help">Help</a></li>
+            
             <div className="bx bx-moon" id="darkmode"></div>
         </ul>
     </header>
